@@ -1,0 +1,51 @@
+.todo-container{
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 40%;
+  background: #222;
+}
+
+.list-container{
+  margin-top: 2rem;
+}
+h1{
+  text-transform: uppercase;
+  color:#eee;
+}
+
+.input-container {
+  display: flex;
+}
+
+input{
+  border:none;
+  outline:none;
+  padding: 1rem;
+  background: #333;
+  color: grey;
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.addBtn{
+  cursor: pointer;
+  border:none;
+  outline:none;
+  background: rgb(238, 168, 37);
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.addBtn:disabled{
+  cursor:not-allowed;
+  pointer-events: none;
+}
+
+.addBtn:hover{
+  cursor: pointer;
+  background:rgb(168, 116, 220);
+  color: #eee;
+}
+

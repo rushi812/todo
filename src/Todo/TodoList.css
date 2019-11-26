@@ -1,0 +1,67 @@
+.list-items{
+  font-size: 1.5rem;
+  background: #444;
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.list-items>p{
+  color: #eee;
+  padding: 1rem;
+  text-align: left;
+  flex:1;
+}
+
+input[type="checkbox"] {
+  flex:0;
+  cursor:pointer;
+  margin: 1.5rem 1rem;
+  font-size:1.5rem;
+}
+
+input[type="checkbox"]:checked{
+  background: #2196F3;
+}
+input:checked + p{
+  text-decoration: line-through;
+  font-style: italic;
+  color:grey !important;
+}
+
+.editBtn{
+  border: none;
+  outline: none;
+  background:rgb(50, 159, 172);
+  color: #fff;
+  padding: 0.5rem;
+  /* font-size: 1rem; */
+  margin: 10px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.editBtn:hover{
+  cursor: pointer;
+  background:rgb(13, 216, 238) ;
+  font-weight:bold;
+}
+
+.deleteBtn{
+  border: none;
+  outline: none;
+  background: rgb(237, 64, 64);
+  color: #fff;
+  padding: 0.5rem;
+  /* font-size: 1rem; */
+  margin: 10px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.deleteBtn:hover{
+  cursor: pointer;
+  background: rgb(240, 117, 117);
+  font-weight:bold;
+}
