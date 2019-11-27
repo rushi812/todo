@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Todo.css';
-import TodoListContainer from '../TodoList/TodoListContainer';
+import TodoListContainer from './TodoList/TodoListContainer';
 
 const Todo = ({
   optionInputHandler,

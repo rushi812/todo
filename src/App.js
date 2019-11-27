@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './App.css';
-import TodoContainer from '../src/components/Todo/TodoContainer';
+import TodoContainer from './components/Todo/TodoContainer';
 
 function App() {
   return (
