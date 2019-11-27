@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './App.css';
-import Todo from './Todo/Todo';
+import TodoContainer from '../src/components/Todo/TodoContainer';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <h1>TODO App</h1>
       </header>
-      <Todo />
+      <TodoContainer />
     </div>
   );
 }

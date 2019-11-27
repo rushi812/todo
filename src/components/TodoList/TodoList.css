@@ -28,6 +28,11 @@ input:checked + p{
   color:grey !important;
 }
 
+.spanItem{
+  padding: 2px;
+  margin-right: 1rem;
+}
+
 .editBtn{
   border: none;
   outline: none;
